@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organex</title>
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .app-logo {
+            width: 150px;
+            height: auto;
+        }
+        .cta {
+            background-color: #6c757d;
+            padding: 60px 0;
+        }
+        .cta h2 {
+            color: #fff;
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .app-badge {
+            width: 200px;
+            height: auto;
+            margin: 20px;
+        }
+        .feature {
+            margin-top: 50px;
+        }
+        .feature .icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .feature h3 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .feature p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+        <div class="container px-5">
+            <a class="navbar-brand fw-bold" href="#page-top">Organex</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Fonctionnalités</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Téléchargement</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead header-->
+    <header class="masthead">
+        <div class="container px-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6">
+                    <!-- Mashead text and app badges-->
+                    <div class="mb-5 mb-lg-0 text-center text-lg-start">
+                        <h1 class="display-1 lh-1 mb-3">Organex</h1>
+                        <p class="lead fw-normal text-muted mb-5">L'application pour organiser vos documents facilement.</p>
+                        <a href="https://play.google.com/store/apps/details?id=votre_id" target="_blank"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="Télécharger sur Google Play"></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <!-- Masthead device mockup feature-->
+                    <div class="masthead-device-mockup">
+                        <div class="device-wrapper">
+                            <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                                <div class="screen bg-black">
+                                    <!-- PUT CONTENTS HERE:-->
+                                    <!-- * * This can be a video, image, or just about anything else.-->
+                                    <!-- * * Set the max width of your media to 100% and the height to-->
+                                    <!-- * * 100% like the demo example below.-->
+                                    <video muted="muted" autoplay="" loop="" style="max-width: 100%; height: 100%"><source src="assets/img/demo-screen.mp4" type="video/mp4" /></video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Features section-->
+    <section id="features" class="bg-light">
+        <div class="container px-5">
+            <h2 class="display-4 text-center mb-5">Découvrez les fonctionnalités de notre application</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="feature text-center">
+                        <i class="bi bi-upload icon"></i>
+                        <h3>Déposer un document</h3>
+                        <p>Déposer facilement des documents depuis votre appareil.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature text-center">
+                        <i class="bi bi-tag icon"></i>
+                        <h3>Définir un label par document</h3>
+                        <p>Organisez vos documents en leur attribuant des labels personnalisés.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature text-center">
+                        <i class="bi bi-calendar icon"></i>
+                        <h3>Définir une date par document</h3>
+                        <p>Affectez des dates pour mieux gérer vos documents.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature text-center">
+                        <i class="bi bi-trash icon"></i>
+                        <h3>Supprimer un document</h3>
+                        <p>Supprimez facilement les documents que vous n'avez plus besoin.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature text-center">
+                        <i class="bi bi-search icon"></i>
+                        <h3>Rechercher un document</h3>
+                        <p>Utilisez la fonction de recherche pour trouver rapidement vos documents.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature text-center">
+                        <i class="bi bi-eye icon"></i>
+                        <h3>Visualiser un document</h3>
+                        <p>Visualisez vos documents directement depuis l'application.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call to action section-->
+    <section class="cta text-center">
+        <div class="cta-content">
+            <div class="container px-5">
+                <h2 class="text-white display-1 lh-1 mb-4">
+                    Arrêtez d'attendre.
+                    <br />
+                    Organisez vos documents dès maintenant.
+                </h2>
+                <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://startbootstrap.com/theme/new-age" target="_blank">Téléchargez gratuitement</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="bg-black text-center py-5">
+        <div class="container px-5">
+            <div class="text-white-50 small">
+                <div class="mb-2">&copy; Organex 2024. Tous droits réservés.</div>
+                <a href="privacy-policy.html">Confidentialité</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
