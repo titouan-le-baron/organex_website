@@ -25,10 +25,10 @@
             font-size: 36px;
             font-weight: bold;
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 30px.
         }
         .app-badge {
-            width: 200px;
+            width: 150px;
             height: auto;
             margin: 20px;
         }
@@ -47,6 +47,12 @@
         .feature p {
             font-size: 18px;
         }
+        .download-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
     </style>
 </head>
 <body id="page-top">
@@ -60,14 +66,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Fonctionnalités</a></li>
                     <li class="nav-item"><a class="nav-link me-lg-3" href="#download">Téléchargement</a></li>
+                    <li class="nav-item"><a class="nav-link me-lg-3" href="#features">Fonctionnalités</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Masthead header-->
-    <header class="masthead">
+    <header class="masthead" id="download">
         <div class="container px-5">
             <div class="row gx-5 align-items-center">
                 <div class="col-lg-6">
@@ -75,7 +81,14 @@
                     <div class="mb-5 mb-lg-0 text-center text-lg-start">
                         <h1 class="display-1 lh-1 mb-3">Organex</h1>
                         <p class="lead fw-normal text-muted mb-5">L'application pour organiser vos documents facilement.</p>
-                        <a href="https://play.google.com/store/apps/details?id=votre_id" target="_blank"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="Télécharger sur Google Play"></a>
+                        <div class="download-buttons">
+                            <a href="https://play.google.com/store/apps/details?id=votre_id" target="_blank">
+                                <img class="app-badge" src="https://play.google.com/intl/en_us/badges/static/images/badges/fr_badge_web_generic.png" alt="Télécharger sur Google Play">
+                            </a>
+                            <a href="https://apps.apple.com/app/idvotre_id" target="_blank">
+                                <img class="app-badge" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Télécharger sur l'App Store">
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -132,16 +145,16 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="feature text-center">
-                        <i class="bi bi-search icon"></i>
-                        <h3>Rechercher un document</h3>
-                        <p>Utilisez la fonction de recherche pour trouver rapidement vos documents.</p>
+                        <i class="bi bi-eye icon"></i>
+                        <h3>Visualiser un document</h3>
+                        <p>Visualisez vos documents directement depuis l'application.</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="feature text-center">
-                        <i class="bi bi-eye icon"></i>
-                        <h3>Visualiser un document</h3>
-                        <p>Visualisez vos documents directement depuis l'application.</p>
+                        <i class="bi bi-share icon"></i>
+                        <h3>Partager un document</h3>
+                        <p>Partagez vos documents en toute simplicité.</p>
                     </div>
                 </div>
             </div>
@@ -166,8 +179,12 @@
         <div class="container px-5">
             <div class="text-white-50 small">
                 <div class="mb-2">&copy; Organex 2024. Tous droits réservés.</div>
-                <a href="privacy-policy.html">Confidentialité</a>
+                <a href="xnxprivacy-policy.html">Confidentialité</a>
             </div>
         </div>
     </footer>
     <!-- Bootstrap core JS-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
